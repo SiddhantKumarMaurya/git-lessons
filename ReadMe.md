@@ -46,3 +46,7 @@
 2. Upload feature branch to GitHub
 3. Create a "Pull Request" (do code reviews)
 4. Merge feature branch into master/main branch (merge happens on GitHub)
+
+---
+#### Notes:
+1. command `git add .`: adds only the current diretory for staging. If you want to stage changes made above the current directory then either traverse to that directory and write the command `git add .` or in the current directory write the command `git add <directory path>`.
